@@ -6,3 +6,7 @@ export const getChessGames = async () => {
     const { data } = await axios.get(`${API}/chess`);
     return data;
 };
+
+export const createChessGame = async () => {
+    await axios.post(`${API}/chess`);
+};
