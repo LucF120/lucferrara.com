@@ -39,7 +39,7 @@ function Landing() {
           <div className="col-12 col-lg-10 col-xl-8 text-center">
             
             {/* Main Content */}
-            <div className="text-center mb-5">
+            <div className="text-center mb-5 pt-2">
               <h1 
                 className="display-1 fw-bold text-white mb-4"
                 style={{ 
