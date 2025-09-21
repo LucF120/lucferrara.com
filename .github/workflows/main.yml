@@ -16,5 +16,5 @@ jobs:
       - name: Deploy
         run: |
           # Vite: dist/   CRA: build/
-          sudo rsync -av --delete dist/ /var/www/my-site/
+          sudo rsync -av --delete dist/ /var/www/lucferrara.com/
           sudo systemctl reload nginx || true
