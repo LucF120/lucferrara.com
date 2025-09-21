@@ -1,7 +1,6 @@
 import { Routes, Route, Navigate, HashRouter } from 'react-router-dom';
 import Landing from './Landing';
 import Chess from './Chess';
-import './App.css';
 
 function App() {
   return (
