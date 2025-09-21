@@ -157,7 +157,6 @@ function Landing() {
                   </div>
                   <h5 className="text-white mb-3">Location</h5>
                   <p className="text-white-50 mb-0" style={{ fontSize: '0.9rem' }}>
-                    Based in<br />
                     United States<br />
                     Remote Available
                   </p>
