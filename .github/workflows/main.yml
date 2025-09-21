@@ -1,0 +1,20 @@
+name: Build on Pi runner
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy
+        run: |
+          # Vite: dist/   CRA: build/
+          sudo rsync -av --delete dist/ /var/www/my-site/
+          sudo systemctl reload nginx || true
