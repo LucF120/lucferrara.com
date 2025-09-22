@@ -9,10 +9,10 @@ export default function Landing() {
       </div>
       <div className="d-flex flex-row pt-4 px-4">
         <div className="row">
-          <div className="col-7">
+          <div className="col-8">
             <LeftPanel />
           </div>
-          <div className="col-5 pb-4 mb-4">
+          <div className="col-4 pb-4 mb-4">
             <RightPanel />
           </div>
         </div>
