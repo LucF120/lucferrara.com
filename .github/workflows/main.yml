@@ -15,6 +15,7 @@ jobs:
       - run: npm run build
       - name: Deploy
         run: |
-          # Vite: dist/   CRA: build/
-          sudo rsync -av --delete dist/ /var/www/lucferrara.com/
-          sudo systemctl reload nginx || true
+          rsync -av --delete \
+      	    --exclude 'wordle/' \
+            dist/ /var/www/lucferrara.com/
+	  sudo systemctl reload nginx || true
