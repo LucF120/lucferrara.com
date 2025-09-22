@@ -16,6 +16,6 @@ jobs:
       - name: Deploy
         run: |
           rsync -av --delete \
-      	    --exclude 'wordle/' \
+            --exclude 'wordle/' \
             dist/ /var/www/lucferrara.com/
-	  sudo systemctl reload nginx || true
+          sudo systemctl reload nginx || true
