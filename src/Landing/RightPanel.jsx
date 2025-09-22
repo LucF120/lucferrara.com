@@ -17,6 +17,15 @@ export default function RightPanel () {
               <Projects />
               <Resources />
               <Skills />
+              <div className="d-flex justify-content-center">
+                <img src="me_graduation.jpg" 
+                    style={{
+                      width: "min(200px, 100%)",
+                      height: "auto",
+                      objectFit: "contain",
+                      display: "block"
+                    }}/>
+              </div>
           </div>
     );
 }
