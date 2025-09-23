@@ -34,6 +34,7 @@ const DESCRIPTION_INTELETRAVEL_1 = [
 const DESCRIPTION_KHOURY = [
     "Serving as Head Teaching Assistant for Matthias Felleisen's CS4400: Principles of Programming Languages.",
     "Maintaining and extending an automated testing and grading system in Racket.",
+    "Organizing and managing the course GitHub organization",
     "Providing student support through office hours, lectures, and one-on-one guidance."
 ];
 
