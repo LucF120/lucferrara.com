@@ -32,9 +32,9 @@ const DESCRIPTION_INTELETRAVEL_1 = [
 ];
 
 const DESCRIPTION_KHOURY = [
-    "Served as Head Teaching Assistant for Matthias Felleisen's CS4400: Principles of Programming Languages.",
-    "Maintained and extended an automated testing and grading system in Racket.",
-    "Provided student support through office hours, lectures, and one-on-one guidance."
+    "Serving as Head Teaching Assistant for Matthias Felleisen's CS4400: Principles of Programming Languages.",
+    "Maintaining and extending an automated testing and grading system in Racket.",
+    "Providing student support through office hours, lectures, and one-on-one guidance."
 ];
 
 export default function WorkExperience() {
