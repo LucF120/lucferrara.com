@@ -1,5 +1,6 @@
 import Skills from "./Skills";
 import Resources from "./Resources";
+import Contact from './Contact';
 import Projects from "./Projects";
 
 export default function RightPanel () {
@@ -14,6 +15,7 @@ export default function RightPanel () {
                       display: "block"
                     }}/>
               </div>
+              <Contact />
               <Projects />
               <Resources />
               <Skills />
