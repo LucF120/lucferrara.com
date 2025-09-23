@@ -5,7 +5,7 @@ export default function Skills() {
 
       <div className="w-50 mb-3 pt-2">
         <div className="fw-bold">Programming Languages:</div>
-        <div className="">C, Python, Java, PHP, HTML/CSS, TypeScript</div>
+        <div className="">C, Python, Java, PHP, HTML/CSS, TypeScript, SML</div>
       </div>
 
       <div className="w-50 mb-3">
